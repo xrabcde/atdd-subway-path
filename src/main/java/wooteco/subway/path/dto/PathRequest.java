@@ -2,13 +2,13 @@ package wooteco.subway.path.dto;
 
 import com.sun.istack.internal.NotNull;
 
-public class PathIdModel {
+public class PathRequest {
     @NotNull
     private long source;
     @NotNull
     private long target;
 
-    public PathIdModel() {
+    public PathRequest() {
     }
 
     public long getSource() {
