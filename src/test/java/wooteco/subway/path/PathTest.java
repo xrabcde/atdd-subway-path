@@ -13,16 +13,16 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class PathTest {
-    Station 강남역 = new Station(1L, "강남역");
-    Station 양재역 = new Station(2L, "양재역");;
-    Station 교대역 = new Station(3L, "교대역");;
-    Station 남부터미널역 = new Station(4L, "남부터미널역");;
+    private final Station 강남역 = new Station(1L, "강남역");
+    private final Station 양재역 = new Station(2L, "양재역");;
+    private final Station 교대역 = new Station(3L, "교대역");;
+    private final Station 남부터미널역 = new Station(4L, "남부터미널역");;
 
-    Line 이호선 = new Line("이호선", "green");
-    Line 삼호선 = new Line("삼호선", "brown");
-    Line 신분당선 = new Line("신분당선", "pink");
+    private final Line 이호선 = new Line("이호선", "green");
+    private final Line 삼호선 = new Line("삼호선", "brown");
+    private final Line 신분당선 = new Line("신분당선", "pink");
 
-    Path path;
+    private Path path;
 
     @BeforeEach
     void setUp() {
